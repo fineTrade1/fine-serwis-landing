@@ -60,13 +60,13 @@ body {
     align-items: center;
     gap: 8px;
     transition: all 0.3s ease;
+    white-space: nowrap;
 }
 
 .btn-secondary:hover {
     background: #007bff;
     color: white;
 }
-
 .btn-phone {
     background: #28a745;
     color: white;
@@ -1021,4 +1021,5 @@ html {
 #contact {
     scroll-margin-top: 120px;
 }
+
 
