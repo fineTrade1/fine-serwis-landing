@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fine Serwis - Profesjonalna Naprawa Sprzętu Sportowego Wrocław | Diagnostyka 24h</title>
+    <meta name="description" content="Fine Serwis - serwis maszyn treningowych Wrocław. Bezpłatna diagnostyka, naprawa bieżni, orbitrekow, stepperow, części zamienne. Wyjazd w 24h. ☎️ Zadzwoń teraz!">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <h2>Fine Serwis</h2>
+                    <span>Profesjonalna opieka nad sprzętem sportowym</span>
+                </div>
+                <div class="header-cta">
+                    <a href="tel:+48730648457" class="btn-phone">
+                        <i class="fas fa-phone"></i> +48 730 648 457
+                    </a>
+                    <button class="btn-primary" onclick="scrollToContact()">
+                        Bezpłatna diagnostyka
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Nie działa bieżnia? <br><span class="highlight">Naprawimy w 24h!</span></h1>
+                    <p class="hero-subtitle">Profesjonalna naprawa sprzętu sportowego we Wrocławiu. Bezpłatna diagnostyka, konkurencyjne ceny, pełna flexibilność.</p>
+                    <div class="hero-features">
+                        <div class="feature-item">
+                            <i class="fas fa-clock"></i>
+                            <span>Wyjazd w ciągu 24h</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-tools"></i>
+                            <span>Darmowa diagnostyka</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-phone-alt"></i>
+                            <span>Dostępni pod telefonem 24/7</span>
+                        </div>
+                    </div>
+                    <div class="hero-cta">
+                        <button class="btn-primary large" onclick="scrollToContact()">
+                            <i class="fas fa-calendar-check"></i>
+                            Zamów diagnostykę TERAZ
+                        </button>
+                        <a href="tel:+48730648457" class="btn-secondary">
+                            <i class="fas fa-phone"></i>
+                            Zadzwoń: +48 730648457
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="image-placeholder">
+                        <i class="fas fa-dumbbell"></i>
+                        <p>Profesjonalny serwis<br>sprzętu sportowego</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Dlaczego Fine Serwis -->
+    <section class="why-us">
+        <div class="container">
+            <h2>Dlaczego Fine Serwis?</h2>
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3>Szybka reakcja</h3>
+                    <p>Wyjazd serwisanta w ciągu <strong>24 godzin</strong> od zgłoszenia. Dla Wrocławia i okolic.</p>
+                    <div class="benefit-cta">
+                        <a href="#contact">Sprawdź dostępność →</a>
+                    </div>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <h3>Darmowa diagnostyka</h3>
+                    <p>Profesjonalna ocena usterki <strong>całkowicie za darmo</strong>. Wiesz dokładnie, co wymieniać.</p>
+                    <div class="benefit-cta">
+                        <a href="#contact">Zamów diagnostykę →</a>
+                    </div>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-euro-sign"></i>
+                    </div>
+                    <h3>Konkurencyjne ceny</h3>
+                    <p><strong>Możemy współpracować bez długoterminowych kontraktów</strong>. Płacisz tylko za wykonane naprawy.</p>
+                    <div class="benefit-cta">
+                        <a href="#pricing">Zobacz cennik →</a>
+                    </div>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-headset"></i>
+                    </div>
+                    <h3>Dostępność 24/7</h3>
+                    <p>Odbieramy telefony i <strong>elastycznie planujemy wizyty</strong> w Twojej siłowni.</p>
+                    <div class="benefit-cta">
+                        <a href="tel:+48730648457">Zadzwoń teraz →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Usługi -->
+    <section class="services">
+        <div class="container">
+            <h2>Nasze usługi serwisowe</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-stethoscope"></i>
+                    </div>
+                    <h3>Diagnostyka sprzętu sportowego</h3>
+                    <p>Profesjonalna diagnostyka bieżni, orbitreków, stepperów i innych maszyn treningowych. <strong>Całkowicie za darmo</strong> - otrzymujesz szczegółowy raport techniczny.</p>
+                    <ul>
+                        <li>✓ Diagnostyka elektroniki</li>
+                        <li>✓ Sprawdzenie mechaniki</li>
+                        <li>✓ Raport z przykładową ceną naprawy</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-wrench"></i>
+                    </div>
+                    <h3>Kompleksowe naprawy</h3>
+                    <p>Naprawiamy wszystkie marki sprzętu sportowego. Im szybciej zareagujesz, tym mniej kosztowna będzie naprawa.</p>
+                    <ul>
+                        <li>✓ Kompleksowa naprawa </li>
+                        <li>✓ Wymiana elektroniki</li>
+                        <li>✓ Regeneracja części mechanicznych</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <h3>Części zamienne</h3>
+                    <p>Profesjonalny dobór i zamówienie części zamiennych. <strong>Realizacja w 3-5 dni roboczych</strong> wraz z montażem.</p>
+                    <ul>
+                        <li>✓ Oryginalne części producenta</li>
+                        <li>✓ Zamienniki wysokiej jakości</li>
+                        <li>✓ Szybka dostawa i montaż</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Proof -->
+    <section class="social-proof">
+        <div class="container">
+            <h2>Zaufały nam już setki siłowni</h2>
+            <div class="clients-logos">
+                <div class="client-logo">Fitness Academy</div>
+                <div class="client-logo">CityFit</div>
+                <div class="client-logo">McFit</div>
+                <div class="client-logo">+ kilka innych</div>
+            </div>
+            <div class="testimonials">
+                <div class="testimonial">
+                    <div class="stars">★★★★★</div>
+                    <p>"Serwisant bardzo przyjemny i profesjonalny. Widać, że jest zmotywowany, a jego wiedza pozwala na sprawną naprawę sprzętów. Polecam!"</p>
+                    <div class="author">- Marek K., właściciel siłowni</div>
+                </div>
+                <div class="testimonial">
+                    <div class="stars">★★★★★</div>
+                    <p>"Reaguje na telefony bardzo szybko i elastycznie planuje wizyty. W krótkim czasie zaplanował wizytę do siłowni."</p>
+                    <div class="author">- Anna W., CityFit, Szewska 3A, Wrocław</div>
+                </div>
+                <div class="testimonial">
+                    <div class="stars">★★★★★</div>
+                    <p>"Profesjonalne podejście, konkurencyjne ceny i szybka realizacja. Nie musimy podpisywać długoterminowych kontraktów."</p>
+                    <div class="author">- Tomasz D., Fitness Academy</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq">
+        <div class="container">
+            <h2>Często zadawane pytania</h2>
+            <div class="faq-list">
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <span>Jak długo będę czekać na serwisanta?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Jesteśmy w stanie wyjechać do Państwa w ciągu <strong>24 godzin</strong> po zostawionym zamówieniu lub telefonie. Dotyczy to Wrocławia i najbliższych okolic.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <span>Jak długo trzeba czekać na części zamienne?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Jesteśmy w stanie zrealizować zamówienie części i ich montaż w ciągu <strong>3-5 dni roboczych</strong> od zatwierdzenia oferty.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <span>Jak długo czekać na darmową diagnostykę?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Diagnostykę darmową realizujemy w ciągu <strong>3 dni roboczych</strong> od zgłoszenia. Po wizycie otrzymują Państwo szczegółowy raport techniczny.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <span>Czy naprawiacie wszystkie marki sprzętu?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Tak, naprawiamy sprzęt wszystkich producentów - bieżnie, orbitreki, steppery, siłownie wielofunkcyjne i inne maszyny treningowe.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <span>Jakie są koszty naprawy?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Koszt zależy od typu usterki. Po darmowej diagnostyce otrzymają Państwo szczegółową wycenę części i robocizny. Bez ukrytych kosztów!</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <span>Czy oferujecie gwarancję na naprawy?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Tak, wszystkie nasze naprawy objęte są gwarancją. Czas gwarancji zależy od typu naprawy i użytych części.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <span>Obsługujecie firmy spoza Wrocławia?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Tak, wyjeżdżamy również poza Wrocław. W przypadku większych odległości mogą zostać naliczone dodatkowe koszty dojazdu.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cennik -->
+    <section class="pricing" id="pricing">
+        <div class="container">
+            <h2>Nasze pakiety usług</h2>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>Diagnostyka Express</h3>
+                        <div class="price">
+                            <span class="currency">GRATIS</span>
+                        </div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li>✓ Profesjonalna diagnostyka</li>
+                        <li>✓ Szczegółowy raport techniczny</li>
+                        <li>✓ Wycena naprawy</li>
+                        <li>✓ Bez zobowiązań</li>
+                    </ul>
+                    <button class="btn-pricing" onclick="scrollToContact()">Zamów teraz</button>
+                </div>
+                <div class="pricing-card featured">
+                    <div class="pricing-header">
+                        <h3>Naprawa Standard</h3>
+                        <div class="price">
+                            <span class="amount">Od 150</span>
+                            <span class="currency">zł</span>
+                        </div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li>✓ Darmowa diagnostyka</li>
+                        <li>✓ Części zamienne</li>
+                        <li>✓ Profesjonalny montaż</li>
+                        <li>✓ Gwarancja na naprawę</li>
+                        <li>✓ Realizacja w 3-5 dni</li>
+                    </ul>
+                    <button class="btn-pricing featured" onclick="scrollToContact()">Najpopularniejsze</button>
+                </div>
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>Serwis Premium</h3>
+                        <div class="price">
+                            <span class="amount">Indywidualnie</span>
+                        </div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li>✓ Regularne przeglądy</li>
+                        <li>✓ Priorytetowy serwis</li>
+                        <li>✓ Rabaty na części</li>
+                        <li>✓ Wsparcie techniczne 24/7</li>
+                        <li>✓ Dla siłowni i firm</li>
+                    </ul>
+                    <button class="btn-pricing" onclick="scrollToContact()">Skontaktuj się</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- O firmie -->
+    <section class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>O Fine Serwis</h2>
+                    <p class="about-intro">Ponad <strong>7 lat doświadczenia</strong> w naprawie sprzętu sportowego. Zaczynaliśmy na Ukrainie, gdzie obsłużyliśmy setki siłowni.</p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <div class="stat-number">7+</div>
+                            <div class="stat-label">lat doświadczenia</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-number">500+</div>
+                            <div class="stat-label">naprawionych maszyn</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-number">200+</div>
+                            <div class="stat-label">zadowolonych klientów</div>
+                        </div>
+                    </div>
+                    <div class="about-values">
+                        <h3>Nasze wartości:</h3>
+                        <ul>
+                            <li><strong>Rzetelność</strong> - Mówimy wprost, co wymaga naprawy</li>
+                            <li><strong>Szybkość</strong> - Minimalizujemy przestój Twojego sprzętu</li>
+                            <li><strong>Profesjonalizm</strong> - 7 lat doświadczenia w branży</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-placeholder">
+                        <i class="fas fa-user-tie"></i>
+                        <p>Doświadczony zespół<br>Fine Serwis</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section class="final-cta" id="contact">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Nie czekaj - każdy dzień przestoju to strata!</h2>
+                <p>Im dłużej trenażer znajduje się w złym stanie, tym więcej kosztuje jego naprawa. Zaplanuj wizytę specjalisty już teraz.</p>
+                <div class="contact-form">
+                    <h3>Zostaw kontakt - oddzwonimy w ciągu 24h</h3>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Dmytro Ilchenko" required>
+                            <input type="tel" id="phone" name="phone" placeholder="+48 730 648 457" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="d.ilchenko.vl@icloud.com">
+                            <select id="service" name="service" required>
+                                <option value="">Wybierz usługę</option>
+                                <option value="diagnostyka">Darmowa diagnostyka</option>
+                                <option value="naprawa">Naprawa sprzętu</option>
+                                <option value="czesci">Części zamienne</option>
+                                <option value="serwis">Serwis premium</option>
+                            </select>
+                        </div>
+                        <textarea id="message" name="message" placeholder="Opisz problem ze sprzętem (opcjonalnie)" rows="3"></textarea>
+                        <button type="submit" class="btn-primary large">
+                            <i class="fas fa-paper-plane"></i>
+                            Wyślij zgłoszenie
+                        </button>
+                    </form>
+                </div>
+                <div class="contact-alternatives">
+                    <div class="contact-option">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <strong>Zadzwoń bezpośrednio:</strong>
+                            <a href="tel:+48730648457">+48 730 648 457</a>
+                        </div>
+                    </div>
+                    <div class="contact-option">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <strong>Dostępni:</strong>
+                            <span>24/7 - odbieramy zawsze!</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Fine Serwis</h3>
+                    <p>Profesjonalna opieka nad Waszym sprzętem sportowym.</p>
+                    <div class="footer-contact">
+                        <p><i class="fas fa-phone"></i> +48 730 648 457</p>
+                        <p><i class="fas fa-envelope"></i> d.ilchenko.vl@icloud.com</p>
+                        <p><i class="fas fa-map-marker-alt"></i> Wrocław i okolice</p>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Usługi</h4>
+                    <ul>
+                        <li><a href="#services">Diagnostyka sprzętu</a></li>
+                        <li><a href="#services">Naprawa maszyn</a></li>
+                        <li><a href="#services">Części zamienne</a></li>
+                        <li><a href="#pricing">Serwis premium</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Informacje</h4>
+                    <ul>
+                        <li><a href="#about">O firmie</a></li>
+                        <li><a href="#faq">FAQ</a></li>
+                        <li><a href="#contact">Kontakt</a></li>
+                        <li><a href="#">Regulamin</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Obszar działania</h4>
+                    <ul>
+                        <li>Wrocław</li>
+                        <li>Oława</li>
+                        <li>Świdnica</li>
+                        <li>Legnica</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Fine Serwis. Wszystkie prawa zastrzeżone.</p>
+                <div class="footer-legal">
+                    <a href="#">Polityka prywatności</a>
+                    <a href="#">RODO</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
