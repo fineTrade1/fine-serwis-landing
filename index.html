@@ -467,7 +467,7 @@
     </footer>
 
     <script>
-// Formspree automatycznie obsłuży formularz
+
 document.getElementById('contactForm').addEventListener('submit', function(e) {
     const submitButton = this.querySelector('button[type="submit"]');
     const originalText = submitButton.innerHTML;
@@ -475,7 +475,6 @@ document.getElementById('contactForm').addEventListener('submit', function(e) {
     submitButton.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Wysyłanie...';
     submitButton.disabled = true;
     
-    // Formspree obsłuży resztę
     setTimeout(() => {
         submitButton.innerHTML = originalText;
         submitButton.disabled = false;
@@ -484,5 +483,6 @@ document.getElementById('contactForm').addEventListener('submit', function(e) {
 </script>
 </body>
 </html>
+
 
 
