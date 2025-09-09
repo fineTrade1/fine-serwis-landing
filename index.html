@@ -373,13 +373,13 @@
                 <p>Im dłużej trenażer znajduje się w złym stanie, tym więcej kosztuje jego naprawa. Zaplanuj wizytę specjalisty już teraz.</p>
                 <div class="contact-form">
                     <h3>Zostaw kontakt - oddzwonimy w ciągu 24h</h3>
-                    <form id="contactForm">
+                    <form id="contactForm" action="https://formspree.io/f/xblawdjv" method="POST">
                         <div class="form-group">
-                            <input type="text" id="name" name="name" placeholder="Dmytro Ilchenko" required>
-                            <input type="tel" id="phone" name="phone" placeholder="+48 730 648 457" required>
+                            <input type="text" id="name" name="name" placeholder="Imię i Nazwisko" required>
+                            <input type="tel" id="phone" name="phone" placeholder="Numer kontaktowy" required>
                         </div>
                         <div class="form-group">
-                            <input type="email" id="email" name="email" placeholder="d.ilchenko.vl@icloud.com">
+                            <input type="email" id="email" name="email" placeholder="Email do kontaktu">
                             <select id="service" name="service" required>
                                 <option value="">Wybierz usługę</option>
                                 <option value="diagnostyka">Darmowa diagnostyka</option>
@@ -469,3 +469,4 @@
     <script src="script.js"></script>
 </body>
 </html>
+
