@@ -87,10 +87,17 @@ body {
     transform: translateY(-1px);
 }
 @media (max-width: 480px) {
-    .btn-phone {
+    .btn-secondary {
         font-size: 13px;
-        padding: 8px 16px;
-        gap: 6px;
+        padding: 10px 20px;
+    }
+    
+    .hero-cta {
+        flex-direction: column;
+        gap: 12px;
+        align-items: stretch;
+    }
+}
     }
     
     .header-cta {
@@ -1021,5 +1028,6 @@ html {
 #contact {
     scroll-margin-top: 120px;
 }
+
 
 
