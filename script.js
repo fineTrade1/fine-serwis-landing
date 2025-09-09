@@ -25,7 +25,6 @@ function toggleFaq(element) {
 }
 
 // Obsługa formularza kontaktowego
-document.getElementById('contactForm').addEventListener('submit', function(e) {
     e.preventDefault();
     
     // Pobierz dane z formularza
@@ -195,3 +194,4 @@ window.addEventListener('scroll', () => {
 // Console log dla deweloperów
 console.log('🔧 Fine Serwis - Landing Page załadowany pomyślnie!');
 console.log('📞 Potrzebujesz pomocy z kodem? Skontaktuj się z nami!');
+
